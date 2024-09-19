@@ -1,0 +1,33 @@
+.fotos-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fotos-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    height: 800px;
+}
+
+.banner-4 {
+    background-image: url("../../assets/extraPicture.jpg");
+}
+
+.banner-5 {
+    background-image: url("../../assets/extraPicture2.jpg");
+}
+
+.fotos-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

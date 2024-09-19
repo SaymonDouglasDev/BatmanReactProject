@@ -1,0 +1,92 @@
+#contato-container {
+    width: 100%;
+    margin-top: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+#contato-principal {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulocontato {
+    color: aliceblue;
+    font-size: 40px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textocontato {
+    color: rgb(216, 219, 223);
+    font-size: 18px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#email {
+    width: 400px;
+    height: 20px;
+    margin-top: 15px;
+    color: black;
+    display: block;
+}
+
+#nome {
+    width: 400px;
+    height: 20px;
+    margin-top: 15px;
+    color: black;
+    display: block;
+}
+
+#mensagem {
+    width: 400px;
+    height: 20px;
+    margin-top: 15px;
+    color: black;
+    display: block;
+}
+
+#enviarcontato {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+#enviarcontato:hover {
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,58 @@
+#sinopse2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 25%;
+}
+
+.Spoiler-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description2 {
+    color: white;
+    font-size: 16px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.titulocomentarios {
+    color: rgb(216, 219, 223);
+    font-size: 20px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: bolder;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.escritoracomentarios {
+    color: rgb(216, 219, 223);
+    font-size: 18px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: bold;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 1%;
+}
+
+.SPOILERS {
+    color: red;
+    font-size: 40px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    margin: 400px 200px;
+}
